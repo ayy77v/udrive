@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EFBF327200CB6F200426369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF326200CB6F200426369 /* AppDelegate.swift */; };
+		4EFBF329200CB6F200426369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF328200CB6F200426369 /* ViewController.swift */; };
+		4EFBF32C200CB6F200426369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFBF32A200CB6F200426369 /* Main.storyboard */; };
+		4EFBF32F200CB6F200426369 /* udrive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF32D200CB6F200426369 /* udrive.xcdatamodeld */; };
+		4EFBF331200CB6F200426369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFBF330200CB6F200426369 /* Assets.xcassets */; };
+		4EFBF334200CB6F200426369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFBF332200CB6F200426369 /* LaunchScreen.storyboard */; };
+		4EFBF33F200CB6F300426369 /* udriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF33E200CB6F300426369 /* udriveTests.swift */; };
+		4EFBF34A200CB6F300426369 /* udriveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF349200CB6F300426369 /* udriveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EFBF33B200CB6F300426369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFBF31B200CB6F200426369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EFBF322200CB6F200426369;
+			remoteInfo = udrive;
+		};
+		4EFBF346200CB6F300426369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFBF31B200CB6F200426369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EFBF322200CB6F200426369;
+			remoteInfo = udrive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EFBF323200CB6F200426369 /* udrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = udrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFBF326200CB6F200426369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EFBF328200CB6F200426369 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EFBF32B200CB6F200426369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EFBF32E200CB6F200426369 /* udrive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = udrive.xcdatamodel; sourceTree = "<group>"; };
+		4EFBF330200CB6F200426369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EFBF333200CB6F200426369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EFBF335200CB6F200426369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFBF33A200CB6F300426369 /* udriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = udriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFBF33E200CB6F300426369 /* udriveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udriveTests.swift; sourceTree = "<group>"; };
+		4EFBF340200CB6F300426369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFBF345200CB6F300426369 /* udriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = udriveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFBF349200CB6F300426369 /* udriveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udriveUITests.swift; sourceTree = "<group>"; };
+		4EFBF34B200CB6F300426369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EFBF320200CB6F200426369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFBF337200CB6F300426369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFBF342200CB6F300426369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EFBF31A200CB6F200426369 = {
+			isa = PBXGroup;
+			children = (
+				4EFBF325200CB6F200426369 /* udrive */,
+				4EFBF33D200CB6F300426369 /* udriveTests */,
+				4EFBF348200CB6F300426369 /* udriveUITests */,
+				4EFBF324200CB6F200426369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EFBF324200CB6F200426369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFBF323200CB6F200426369 /* udrive.app */,
+				4EFBF33A200CB6F300426369 /* udriveTests.xctest */,
+				4EFBF345200CB6F300426369 /* udriveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EFBF325200CB6F200426369 /* udrive */ = {
+			isa = PBXGroup;
+			children = (
+				4EFBF326200CB6F200426369 /* AppDelegate.swift */,
+				4EFBF328200CB6F200426369 /* ViewController.swift */,
+				4EFBF32A200CB6F200426369 /* Main.storyboard */,
+				4EFBF330200CB6F200426369 /* Assets.xcassets */,
+				4EFBF332200CB6F200426369 /* LaunchScreen.storyboard */,
+				4EFBF335200CB6F200426369 /* Info.plist */,
+				4EFBF32D200CB6F200426369 /* udrive.xcdatamodeld */,
+			);
+			path = udrive;
+			sourceTree = "<group>";
+		};
+		4EFBF33D200CB6F300426369 /* udriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFBF33E200CB6F300426369 /* udriveTests.swift */,
+				4EFBF340200CB6F300426369 /* Info.plist */,
+			);
+			path = udriveTests;
+			sourceTree = "<group>";
+		};
+		4EFBF348200CB6F300426369 /* udriveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFBF349200CB6F300426369 /* udriveUITests.swift */,
+				4EFBF34B200CB6F300426369 /* Info.plist */,
+			);
+			path = udriveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EFBF322200CB6F200426369 /* udrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFBF34E200CB6F300426369 /* Build configuration list for PBXNativeTarget "udrive" */;
+			buildPhases = (
+				4EFBF31F200CB6F200426369 /* Sources */,
+				4EFBF320200CB6F200426369 /* Frameworks */,
+				4EFBF321200CB6F200426369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = udrive;
+			productName = udrive;
+			productReference = 4EFBF323200CB6F200426369 /* udrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EFBF339200CB6F300426369 /* udriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFBF351200CB6F300426369 /* Build configuration list for PBXNativeTarget "udriveTests" */;
+			buildPhases = (
+				4EFBF336200CB6F300426369 /* Sources */,
+				4EFBF337200CB6F300426369 /* Frameworks */,
+				4EFBF338200CB6F300426369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFBF33C200CB6F300426369 /* PBXTargetDependency */,
+			);
+			name = udriveTests;
+			productName = udriveTests;
+			productReference = 4EFBF33A200CB6F300426369 /* udriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EFBF344200CB6F300426369 /* udriveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFBF354200CB6F300426369 /* Build configuration list for PBXNativeTarget "udriveUITests" */;
+			buildPhases = (
+				4EFBF341200CB6F300426369 /* Sources */,
+				4EFBF342200CB6F300426369 /* Frameworks */,
+				4EFBF343200CB6F300426369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFBF347200CB6F300426369 /* PBXTargetDependency */,
+			);
+			name = udriveUITests;
+			productName = udriveUITests;
+			productReference = 4EFBF345200CB6F300426369 /* udriveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EFBF31B200CB6F200426369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王資猛";
+				TargetAttributes = {
+					4EFBF322200CB6F200426369 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					4EFBF339200CB6F300426369 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EFBF322200CB6F200426369;
+					};
+					4EFBF344200CB6F300426369 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EFBF322200CB6F200426369;
+					};
+				};
+			};
+			buildConfigurationList = 4EFBF31E200CB6F200426369 /* Build configuration list for PBXProject "udrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EFBF31A200CB6F200426369;
+			productRefGroup = 4EFBF324200CB6F200426369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EFBF322200CB6F200426369 /* udrive */,
+				4EFBF339200CB6F300426369 /* udriveTests */,
+				4EFBF344200CB6F300426369 /* udriveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EFBF321200CB6F200426369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFBF334200CB6F200426369 /* LaunchScreen.storyboard in Resources */,
+				4EFBF331200CB6F200426369 /* Assets.xcassets in Resources */,
+				4EFBF32C200CB6F200426369 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFBF338200CB6F300426369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFBF343200CB6F300426369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EFBF31F200CB6F200426369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFBF329200CB6F200426369 /* ViewController.swift in Sources */,
+				4EFBF327200CB6F200426369 /* AppDelegate.swift in Sources */,
+				4EFBF32F200CB6F200426369 /* udrive.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFBF336200CB6F300426369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFBF33F200CB6F300426369 /* udriveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFBF341200CB6F300426369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFBF34A200CB6F300426369 /* udriveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EFBF33C200CB6F300426369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EFBF322200CB6F200426369 /* udrive */;
+			targetProxy = 4EFBF33B200CB6F300426369 /* PBXContainerItemProxy */;
+		};
+		4EFBF347200CB6F300426369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EFBF322200CB6F200426369 /* udrive */;
+			targetProxy = 4EFBF346200CB6F300426369 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EFBF32A200CB6F200426369 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFBF32B200CB6F200426369 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EFBF332200CB6F200426369 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFBF333200CB6F200426369 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EFBF34C200CB6F300426369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EFBF34D200CB6F300426369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EFBF34F200CB6F300426369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = udrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.udrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4EFBF350200CB6F300426369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = udrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.udrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4EFBF352200CB6F300426369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = udriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.udriveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/udrive.app/udrive";
+			};
+			name = Debug;
+		};
+		4EFBF353200CB6F300426369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = udriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.udriveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/udrive.app/udrive";
+			};
+			name = Release;
+		};
+		4EFBF355200CB6F300426369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = udriveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.udriveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = udrive;
+			};
+			name = Debug;
+		};
+		4EFBF356200CB6F300426369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = udriveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.udriveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = udrive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EFBF31E200CB6F200426369 /* Build configuration list for PBXProject "udrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFBF34C200CB6F300426369 /* Debug */,
+				4EFBF34D200CB6F300426369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFBF34E200CB6F300426369 /* Build configuration list for PBXNativeTarget "udrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFBF34F200CB6F300426369 /* Debug */,
+				4EFBF350200CB6F300426369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EFBF351200CB6F300426369 /* Build configuration list for PBXNativeTarget "udriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFBF352200CB6F300426369 /* Debug */,
+				4EFBF353200CB6F300426369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EFBF354200CB6F300426369 /* Build configuration list for PBXNativeTarget "udriveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFBF355200CB6F300426369 /* Debug */,
+				4EFBF356200CB6F300426369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4EFBF32D200CB6F200426369 /* udrive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4EFBF32E200CB6F200426369 /* udrive.xcdatamodel */,
+			);
+			currentVersion = 4EFBF32E200CB6F200426369 /* udrive.xcdatamodel */;
+			path = udrive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4EFBF31B200CB6F200426369 /* Project object */;
+}
