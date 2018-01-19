@@ -9,16 +9,71 @@
 import UIKit
 
 class SignInVC: UIViewController {
+    
+    
+    @IBOutlet weak var emailTextField: UITextField!
+    
+    
+    
+    @IBOutlet weak var passwordTextField: UITextField!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var auth = AuthProvider();
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+    @IBAction func logIn(_ sender: Any) {
+        if emailTextField.text != "" && passwordTextField.text != ""
+        {
+            AuthProvider.Instance.login(withEmail: emailTextField.text!, password: passwordTextField.text!, loginHandler: { (message) in
+                
+                if message != nil {
+                    self.alertTheUser(title: "Problem with Authentication", message: message!)
+                }
+                else {
+                    self.alertTheUser(title: "Login successfully", message: "welcome back")
+                    print("login completed")
+                }
+            });
+        }else {
+            alertTheUser(title: "Email and Password are required", message: "please enter email and password")
+        }
+        
+        
+    }
+    
+    
+    @IBAction func signUp(_ sender: Any) {
+        if emailTextField.text != "" && passwordTextField.text != ""
+        {
+            AuthProvider.Instance.signUp(withEmail: emailTextField.text! , password: passwordTextField.text! , loginHandler: { (message) in
+                if message != nil {
+                    self.alertTheUser(title: "Problem with creating a new user", message: message!)
+                } else {
+                    self.alertTheUser(title: "You just signed up", message: "welcome!")
+                    print("successfully create a user")
+                }
+                
+            });
+            
+        }else {
+            alertTheUser(title: "Email and Password are required", message: "please enter email and password")
+            
+        }
+
+    }
+    
+    
+    
+    private func alertTheUser(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert);
+        let ok = UIAlertAction(title: "Ok", style: .default, handler: nil);
+        alert.addAction(ok);
+        present(alert, animated: true, completion: nil)
     }
     
 
@@ -32,4 +87,4 @@ class SignInVC: UIViewController {
     }
     */
 
-}
+} // class

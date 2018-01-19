@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1498A1200EF66400EAEEC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E1498A0200EF66400EAEEC7 /* GoogleService-Info.plist */; };
+		4E43BFA42012350E00754A05 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E43BFA32012350E00754A05 /* AuthProvider.swift */; };
 		4EFBF327200CB6F200426369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF326200CB6F200426369 /* AppDelegate.swift */; };
 		4EFBF329200CB6F200426369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF328200CB6F200426369 /* ViewController.swift */; };
 		4EFBF32C200CB6F200426369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFBF32A200CB6F200426369 /* Main.storyboard */; };
@@ -15,6 +17,10 @@
 		4EFBF334200CB6F200426369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFBF332200CB6F200426369 /* LaunchScreen.storyboard */; };
 		4EFBF33F200CB6F300426369 /* udriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF33E200CB6F300426369 /* udriveTests.swift */; };
 		4EFBF34A200CB6F300426369 /* udriveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF349200CB6F300426369 /* udriveUITests.swift */; };
+		4EFBF35C200CBB1D00426369 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF35B200CBB1D00426369 /* SignInVC.swift */; };
+		976E744E5B1649CF2FB2D695 /* Pods_udriveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16A7FFF5DDF17C62989C24F /* Pods_udriveTests.framework */; };
+		AEDE7B1C66326E0E49FA497E /* Pods_udriveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A87447AE2772DDE920698C /* Pods_udriveUITests.framework */; };
+		D1682F16DB365A0A9A7E9FE2 /* Pods_udrive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CD0474064DDA3180773FA0 /* Pods_udrive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13A87447AE2772DDE920698C /* Pods_udriveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_udriveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC3688EF18FF61801C2CE40 /* Pods-udriveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udriveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-udriveUITests/Pods-udriveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E1498A0200EF66400EAEEC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E43BFA32012350E00754A05 /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
 		4EFBF323200CB6F200426369 /* udrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = udrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFBF326200CB6F200426369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EFBF328200CB6F200426369 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,14 @@
 		4EFBF345200CB6F300426369 /* udriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = udriveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFBF349200CB6F300426369 /* udriveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udriveUITests.swift; sourceTree = "<group>"; };
 		4EFBF34B200CB6F300426369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFBF35B200CBB1D00426369 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		63C0D92319229A85870D0A4E /* Pods-udrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udrive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-udrive/Pods-udrive.debug.xcconfig"; sourceTree = "<group>"; };
+		65CD0474064DDA3180773FA0 /* Pods_udrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_udrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6670CBA060528C14290B4B4B /* Pods-udriveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udriveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-udriveTests/Pods-udriveTests.release.xcconfig"; sourceTree = "<group>"; };
+		B16A7FFF5DDF17C62989C24F /* Pods_udriveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_udriveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA73D353F591A4345BB48A6 /* Pods-udriveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udriveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-udriveTests/Pods-udriveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E47EB535EF8A9D8440602C72 /* Pods-udriveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udriveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-udriveUITests/Pods-udriveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9C22F63D2CC84D668C3B8A3 /* Pods-udrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udrive.release.xcconfig"; path = "Pods/Target Support Files/Pods-udrive/Pods-udrive.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1682F16DB365A0A9A7E9FE2 /* Pods_udrive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976E744E5B1649CF2FB2D695 /* Pods_udriveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDE7B1C66326E0E49FA497E /* Pods_udriveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0797F78B06D5623AB6EBC4CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65CD0474064DDA3180773FA0 /* Pods_udrive.framework */,
+				B16A7FFF5DDF17C62989C24F /* Pods_udriveTests.framework */,
+				13A87447AE2772DDE920698C /* Pods_udriveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E43BFA2201234F300754A05 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				4E43BFA32012350E00754A05 /* AuthProvider.swift */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
 		4EFBF31A200CB6F200426369 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				4EFBF33D200CB6F300426369 /* udriveTests */,
 				4EFBF348200CB6F300426369 /* udriveUITests */,
 				4EFBF324200CB6F200426369 /* Products */,
+				79478E9079A680A9E0B67E28 /* Pods */,
+				0797F78B06D5623AB6EBC4CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +140,10 @@
 		4EFBF325200CB6F200426369 /* udrive */ = {
 			isa = PBXGroup;
 			children = (
+				4E43BFA2201234F300754A05 /* Plugins */,
+				4EFBF35A200CBAD400426369 /* Controller */,
+				4EFBF359200CBACD00426369 /* Model */,
+				4EFBF357200CBAB700426369 /* View */,
 				4EFBF326200CB6F200426369 /* AppDelegate.swift */,
 				4EFBF328200CB6F200426369 /* ViewController.swift */,
 				4EFBF32A200CB6F200426369 /* Main.storyboard */,
@@ -106,6 +151,7 @@
 				4EFBF332200CB6F200426369 /* LaunchScreen.storyboard */,
 				4EFBF335200CB6F200426369 /* Info.plist */,
 				4EFBF32D200CB6F200426369 /* udrive.xcdatamodeld */,
+				4E1498A0200EF66400EAEEC7 /* GoogleService-Info.plist */,
 			);
 			path = udrive;
 			sourceTree = "<group>";
@@ -128,6 +174,41 @@
 			path = udriveUITests;
 			sourceTree = "<group>";
 		};
+		4EFBF357200CBAB700426369 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4EFBF359200CBACD00426369 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4EFBF35A200CBAD400426369 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4EFBF35B200CBB1D00426369 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		79478E9079A680A9E0B67E28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D92319229A85870D0A4E /* Pods-udrive.debug.xcconfig */,
+				F9C22F63D2CC84D668C3B8A3 /* Pods-udrive.release.xcconfig */,
+				CBA73D353F591A4345BB48A6 /* Pods-udriveTests.debug.xcconfig */,
+				6670CBA060528C14290B4B4B /* Pods-udriveTests.release.xcconfig */,
+				2DC3688EF18FF61801C2CE40 /* Pods-udriveUITests.debug.xcconfig */,
+				E47EB535EF8A9D8440602C72 /* Pods-udriveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EFBF34E200CB6F300426369 /* Build configuration list for PBXNativeTarget "udrive" */;
 			buildPhases = (
+				6AC6432F59EC96C0F2D585BE /* [CP] Check Pods Manifest.lock */,
 				4EFBF31F200CB6F200426369 /* Sources */,
 				4EFBF320200CB6F200426369 /* Frameworks */,
 				4EFBF321200CB6F200426369 /* Resources */,
+				D4AC09496A6C61DE337C5E14 /* [CP] Embed Pods Frameworks */,
+				33508BE052DE0C36B54D3C34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EFBF351200CB6F300426369 /* Build configuration list for PBXNativeTarget "udriveTests" */;
 			buildPhases = (
+				C0B484EDA655F5CEECA557E4 /* [CP] Check Pods Manifest.lock */,
 				4EFBF336200CB6F300426369 /* Sources */,
 				4EFBF337200CB6F300426369 /* Frameworks */,
 				4EFBF338200CB6F300426369 /* Resources */,
+				A62C6DEF6132FA3C8AA5551B /* [CP] Embed Pods Frameworks */,
+				B743F5A49DA7180DD249DF59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EFBF354200CB6F300426369 /* Build configuration list for PBXNativeTarget "udriveUITests" */;
 			buildPhases = (
+				498957F30E1EC5C4BDA8A750 /* [CP] Check Pods Manifest.lock */,
 				4EFBF341200CB6F300426369 /* Sources */,
 				4EFBF342200CB6F300426369 /* Frameworks */,
 				4EFBF343200CB6F300426369 /* Resources */,
+				132942518DE41D16FDBB7D23 /* [CP] Embed Pods Frameworks */,
+				0440C2E6C5374F77CE4C6D2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +327,7 @@
 			files = (
 				4EFBF334200CB6F200426369 /* LaunchScreen.storyboard in Resources */,
 				4EFBF331200CB6F200426369 /* Assets.xcassets in Resources */,
+				4E1498A1200EF66400EAEEC7 /* GoogleService-Info.plist in Resources */,
 				4EFBF32C200CB6F200426369 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +348,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0440C2E6C5374F77CE4C6D2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-udriveUITests/Pods-udriveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		132942518DE41D16FDBB7D23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-udriveUITests/Pods-udriveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33508BE052DE0C36B54D3C34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-udrive/Pods-udrive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		498957F30E1EC5C4BDA8A750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-udriveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC6432F59EC96C0F2D585BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-udrive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A62C6DEF6132FA3C8AA5551B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-udriveTests/Pods-udriveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B743F5A49DA7180DD249DF59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-udriveTests/Pods-udriveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B484EDA655F5CEECA557E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-udriveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4AC09496A6C61DE337C5E14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-udrive/Pods-udrive-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-udrive/Pods-udrive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EFBF31F200CB6F200426369 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +511,8 @@
 			files = (
 				4EFBF329200CB6F200426369 /* ViewController.swift in Sources */,
 				4EFBF327200CB6F200426369 /* AppDelegate.swift in Sources */,
+				4E43BFA42012350E00754A05 /* AuthProvider.swift in Sources */,
+				4EFBF35C200CBB1D00426369 /* SignInVC.swift in Sources */,
 				4EFBF32F200CB6F200426369 /* udrive.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +665,7 @@
 		};
 		4EFBF34F200CB6F300426369 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C0D92319229A85870D0A4E /* Pods-udrive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = udrive/Info.plist;
@@ -428,6 +678,7 @@
 		};
 		4EFBF350200CB6F300426369 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C22F63D2CC84D668C3B8A3 /* Pods-udrive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = udrive/Info.plist;
@@ -440,6 +691,7 @@
 		};
 		4EFBF352200CB6F300426369 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA73D353F591A4345BB48A6 /* Pods-udriveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +706,7 @@
 		};
 		4EFBF353200CB6F300426369 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6670CBA060528C14290B4B4B /* Pods-udriveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +721,7 @@
 		};
 		4EFBF355200CB6F300426369 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC3688EF18FF61801C2CE40 /* Pods-udriveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = udriveUITests/Info.plist;
@@ -481,6 +735,7 @@
 		};
 		4EFBF356200CB6F300426369 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47EB535EF8A9D8440602C72 /* Pods-udriveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = udriveUITests/Info.plist;
@@ -511,6 +766,7 @@
 				4EFBF350200CB6F300426369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EFBF351200CB6F300426369 /* Build configuration list for PBXNativeTarget "udriveTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +775,7 @@
 				4EFBF353200CB6F300426369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EFBF354200CB6F300426369 /* Build configuration list for PBXNativeTarget "udriveUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +784,7 @@
 				4EFBF356200CB6F300426369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
