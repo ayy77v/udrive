@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E1498A1200EF66400EAEEC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E1498A0200EF66400EAEEC7 /* GoogleService-Info.plist */; };
+		4E3970ED20133EBE0033C656 /* DriverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3970EC20133EBE0033C656 /* DriverVC.swift */; };
 		4E43BFA42012350E00754A05 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E43BFA32012350E00754A05 /* AuthProvider.swift */; };
 		4EFBF327200CB6F200426369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF326200CB6F200426369 /* AppDelegate.swift */; };
 		4EFBF329200CB6F200426369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBF328200CB6F200426369 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		13A87447AE2772DDE920698C /* Pods_udriveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_udriveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC3688EF18FF61801C2CE40 /* Pods-udriveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udriveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-udriveUITests/Pods-udriveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E1498A0200EF66400EAEEC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E3970EC20133EBE0033C656 /* DriverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverVC.swift; sourceTree = "<group>"; };
 		4E43BFA32012350E00754A05 /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
 		4EFBF323200CB6F200426369 /* udrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = udrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFBF326200CB6F200426369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				4EFBF35B200CBB1D00426369 /* SignInVC.swift */,
+				4E3970EC20133EBE0033C656 /* DriverVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 				4EFBF327200CB6F200426369 /* AppDelegate.swift in Sources */,
 				4E43BFA42012350E00754A05 /* AuthProvider.swift in Sources */,
 				4EFBF35C200CBB1D00426369 /* SignInVC.swift in Sources */,
+				4E3970ED20133EBE0033C656 /* DriverVC.swift in Sources */,
 				4EFBF32F200CB6F200426369 /* udrive.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

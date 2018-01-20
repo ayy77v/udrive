@@ -10,6 +10,7 @@ import UIKit
 
 class SignInVC: UIViewController {
     
+    private let DRIVER_SEGUE = "DriverVC"
     
     @IBOutlet weak var emailTextField: UITextField!
     
@@ -35,8 +36,7 @@ class SignInVC: UIViewController {
                     self.alertTheUser(title: "Problem with Authentication", message: message!)
                 }
                 else {
-                    self.alertTheUser(title: "Login successfully", message: "welcome back")
-                    print("login completed")
+                     self.performSegue(withIdentifier: self.DRIVER_SEGUE, sender: nil);
                 }
             });
         }else {
@@ -54,8 +54,7 @@ class SignInVC: UIViewController {
                 if message != nil {
                     self.alertTheUser(title: "Problem with creating a new user", message: message!)
                 } else {
-                    self.alertTheUser(title: "You just signed up", message: "welcome!")
-                    print("successfully create a user")
+                   self.performSegue(withIdentifier: self.DRIVER_SEGUE, sender: nil);
                 }
                 
             });
