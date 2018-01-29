@@ -58,6 +58,7 @@ class AuthProvider {
             } else {
                 if user?.uid != nil {
                     // store the user to database
+                    DBProvider.Instance.saveUser(withID: user!.uid, email: withEmail, password: password)
                     // login in the user
                     self.login(withEmail: withEmail, password: password, loginHandler: loginHandler)
                 }

@@ -13,16 +13,50 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate  
     
     @IBOutlet weak var myMap: MKMapView!
     
+    private var locationManager = CLLocationManager();
+    private var userLocation: CLLocationCoordinate2D?;
+//    private var riderLocation: CLLocationCoordinate2D?;
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        initializeLocationManager()
 
         // Do any additional setup after loading the view.
+    }
+    
+    private func initializeLocationManager() {
+        locationManager.delegate = self;
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.requestWhenInUseAuthorization();
+        locationManager.startUpdatingLocation();
+        
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
+        
+        // if we have the cordinate from the manager
+        if let location = locationManager.location?.coordinate{
+            
+            userLocation = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
+            
+            let region = MKCoordinateRegion(center: userLocation!, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01));
+            
+            myMap.setRegion(region, animated: true);
+            
+            
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    override func viewDidDisappear(_ animated: Bool) {
+        //因為ＧＰＳ功能很耗電,所以被敬執行時關閉定位功能
+        locationManager.stopUpdatingLocation();
     }
     
     
